@@ -28,7 +28,7 @@ def dict_merge(dict_list):
         if v == -1:
             continue
         else:
-            if  any(temp[1:temp.index(v)]) != -1 and temp.index(v)!=0:
+            if  len(set(temp)) > 2:
                 merged[f'{letter}_{temp.index(v)}'] = v   
             else:    
                 merged[letter] = v

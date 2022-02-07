@@ -28,10 +28,10 @@ def dict_merge(dict_list):
         if v == -1:
             continue
         else:
-            if temp.index(v) == 0:
-                merged[letter] = v
+            if  any(temp[1:temp.index(v)]) != -1 and temp.index(v)!=0:
+                merged[f'{letter}_{temp.index(v)}'] = v   
             else:    
-                merged[f'{letter}_{temp.index(v)}'] = v
+                merged[letter] = v
     return merged
 
 dict_list = []                                      # generates random list with random number of dictionaries 

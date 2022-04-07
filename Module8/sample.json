@@ -1,0 +1,13 @@
+{
+    "news": {
+        "text": "Something happened in the city.",
+        "city": "Lviv"
+    },
+    "private ad": {
+        "text": "Looking for girlfriend, 20-25 years old.",
+        "expiry_date": "25-05-2022"
+    },
+    "weather": {
+        "text": "5"
+    }
+}

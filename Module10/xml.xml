@@ -1,0 +1,13 @@
+<newsfeed>
+	<publication header = 'News'>
+		<text>New track of Someone available</text>
+		<metadata>Kyiv</metadata>
+	</publication>
+	<publication header = 'Private Ad'>
+		<text>Looking for apartment</text>
+		<metadata>31-05-2022</metadata>
+	</publication>
+	<publication header = 'Weather'>
+		<text>5</text>
+	</publication>
+</newsfeed>
